@@ -190,3 +190,16 @@ app_license = "MIT"
 # auth_hooks = [
 #	"development_test.auth.validate"
 # ]
+
+fixtures = [
+      {
+            "dt":"Workflow",
+            "filters":{
+                "name":["in",
+                [
+                    "Purchase Order Workflow"
+                ]
+                ]
+            }
+            }
+]
